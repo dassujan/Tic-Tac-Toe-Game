@@ -44,8 +44,8 @@ function boxClicked(e) {
     e.target.innerText = playersTurn;
 
     if (playerWon(playersTurn)) {
-      result.innerText = `Congrats! ${playersTurn} Won`;
-      setTimeout(resetBoard, 2000);
+      result.innerText = `Congrats! ${playersTurn} Won 🥳`;
+      setTimeout(resetBoard, 2500);
     }
 
     playersTurn = playersTurn === player1 ? player2 : player1;
